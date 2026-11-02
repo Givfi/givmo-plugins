@@ -1,0 +1,33 @@
+{
+  "name": "givmo",
+  "description": "Givmo's charitable-giving tools for Claude Code.",
+  "owner": {
+    "name": "Givmo",
+    "email": "support@givmocharitable.org"
+  },
+  "plugins": [
+    {
+      "name": "givmo",
+      "source": "./",
+      "description": "Givmo's charitable-giving tools for Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Givmo"
+      },
+      "homepage": "https://givmo.io",
+      "repository": "https://github.com/givfi/givmo-plugins",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "keywords": [
+        "charity",
+        "charitable-giving",
+        "donation",
+        "nonprofit",
+        "mcp"
+      ],
+      "skills": [
+        "./skills/givmo-giving"
+      ]
+    }
+  ]
+}

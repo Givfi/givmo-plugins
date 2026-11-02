@@ -1,0 +1,5 @@
+# Givmo MCP server for Codex. Add this table to ~/.codex/config.toml, keeping what
+# is already there.
+
+[mcp_servers.givmo]
+url = "https://mcp.givmo.io/mcp"

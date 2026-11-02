@@ -1,0 +1,27 @@
+{
+  "name": "givmo",
+  "displayName": "Givmo Giving",
+  "version": "0.1.0",
+  "description": "Givmo's charitable-giving tools for Claude Code.",
+  "author": {
+    "name": "Givmo",
+    "url": "https://givmo.io"
+  },
+  "homepage": "https://givmo.io",
+  "repository": "https://github.com/givfi/givmo-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "charity",
+    "charitable-giving",
+    "donation",
+    "nonprofit",
+    "mcp",
+    "givmo"
+  ],
+  "mcpServers": {
+    "givmo": {
+      "type": "http",
+      "url": "https://mcp.givmo.io/mcp"
+    }
+  }
+}
